@@ -1,0 +1,7 @@
+---
+classes:
+  nfs::server:
+    exports:
+    - "/ srv / share1"
+    - "/ srv / share3"
+environment: Produktion
